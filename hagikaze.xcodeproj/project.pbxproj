@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1FE74A1DB3A82800242954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE7491DB3A82800242954 /* AppDelegate.swift */; };
+		AD1FE74C1DB3A82800242954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE74B1DB3A82800242954 /* ViewController.swift */; };
+		AD1FE74F1DB3A82800242954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FE74D1DB3A82800242954 /* Main.storyboard */; };
+		AD1FE7511DB3A82800242954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1FE7501DB3A82800242954 /* Assets.xcassets */; };
+		AD1FE7541DB3A82800242954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */; };
+		AD1FE75F1DB3A82800242954 /* hagikazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE75E1DB3A82800242954 /* hagikazeTests.swift */; };
+		AD1FE76A1DB3A82800242954 /* hagikazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1FE75B1DB3A82800242954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1FE73E1DB3A82800242954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1FE7451DB3A82800242954;
+			remoteInfo = hagikaze;
+		};
+		AD1FE7661DB3A82800242954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1FE73E1DB3A82800242954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1FE7451DB3A82800242954;
+			remoteInfo = hagikaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1FE7461DB3A82800242954 /* hagikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hagikaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1FE7491DB3A82800242954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD1FE74B1DB3A82800242954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD1FE74E1DB3A82800242954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1FE7501DB3A82800242954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1FE7531DB3A82800242954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1FE7551DB3A82800242954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1FE75A1DB3A82800242954 /* hagikazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hagikazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1FE75E1DB3A82800242954 /* hagikazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hagikazeTests.swift; sourceTree = "<group>"; };
+		AD1FE7601DB3A82800242954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1FE7651DB3A82800242954 /* hagikazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hagikazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hagikazeUITests.swift; sourceTree = "<group>"; };
+		AD1FE76B1DB3A82800242954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1FE7431DB3A82800242954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1FE7571DB3A82800242954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1FE7621DB3A82800242954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1FE73D1DB3A82800242954 = {
+			isa = PBXGroup;
+			children = (
+				AD1FE7481DB3A82800242954 /* hagikaze */,
+				AD1FE75D1DB3A82800242954 /* hagikazeTests */,
+				AD1FE7681DB3A82800242954 /* hagikazeUITests */,
+				AD1FE7471DB3A82800242954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1FE7471DB3A82800242954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1FE7461DB3A82800242954 /* hagikaze.app */,
+				AD1FE75A1DB3A82800242954 /* hagikazeTests.xctest */,
+				AD1FE7651DB3A82800242954 /* hagikazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1FE7481DB3A82800242954 /* hagikaze */ = {
+			isa = PBXGroup;
+			children = (
+				AD1FE7491DB3A82800242954 /* AppDelegate.swift */,
+				AD1FE74B1DB3A82800242954 /* ViewController.swift */,
+				AD1FE74D1DB3A82800242954 /* Main.storyboard */,
+				AD1FE7501DB3A82800242954 /* Assets.xcassets */,
+				AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */,
+				AD1FE7551DB3A82800242954 /* Info.plist */,
+			);
+			path = hagikaze;
+			sourceTree = "<group>";
+		};
+		AD1FE75D1DB3A82800242954 /* hagikazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1FE75E1DB3A82800242954 /* hagikazeTests.swift */,
+				AD1FE7601DB3A82800242954 /* Info.plist */,
+			);
+			path = hagikazeTests;
+			sourceTree = "<group>";
+		};
+		AD1FE7681DB3A82800242954 /* hagikazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */,
+				AD1FE76B1DB3A82800242954 /* Info.plist */,
+			);
+			path = hagikazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1FE7451DB3A82800242954 /* hagikaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1FE76E1DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikaze" */;
+			buildPhases = (
+				AD1FE7421DB3A82800242954 /* Sources */,
+				AD1FE7431DB3A82800242954 /* Frameworks */,
+				AD1FE7441DB3A82800242954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hagikaze;
+			productName = hagikaze;
+			productReference = AD1FE7461DB3A82800242954 /* hagikaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1FE7591DB3A82800242954 /* hagikazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1FE7711DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeTests" */;
+			buildPhases = (
+				AD1FE7561DB3A82800242954 /* Sources */,
+				AD1FE7571DB3A82800242954 /* Frameworks */,
+				AD1FE7581DB3A82800242954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1FE75C1DB3A82800242954 /* PBXTargetDependency */,
+			);
+			name = hagikazeTests;
+			productName = hagikazeTests;
+			productReference = AD1FE75A1DB3A82800242954 /* hagikazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD1FE7641DB3A82800242954 /* hagikazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1FE7741DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeUITests" */;
+			buildPhases = (
+				AD1FE7611DB3A82800242954 /* Sources */,
+				AD1FE7621DB3A82800242954 /* Frameworks */,
+				AD1FE7631DB3A82800242954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1FE7671DB3A82800242954 /* PBXTargetDependency */,
+			);
+			name = hagikazeUITests;
+			productName = hagikazeUITests;
+			productReference = AD1FE7651DB3A82800242954 /* hagikazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1FE73E1DB3A82800242954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sapphire;
+				TargetAttributes = {
+					AD1FE7451DB3A82800242954 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3SAKQQACR7;
+						ProvisioningStyle = Automatic;
+					};
+					AD1FE7591DB3A82800242954 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3SAKQQACR7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD1FE7451DB3A82800242954;
+					};
+					AD1FE7641DB3A82800242954 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3SAKQQACR7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD1FE7451DB3A82800242954;
+					};
+				};
+			};
+			buildConfigurationList = AD1FE7411DB3A82800242954 /* Build configuration list for PBXProject "hagikaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1FE73D1DB3A82800242954;
+			productRefGroup = AD1FE7471DB3A82800242954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1FE7451DB3A82800242954 /* hagikaze */,
+				AD1FE7591DB3A82800242954 /* hagikazeTests */,
+				AD1FE7641DB3A82800242954 /* hagikazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1FE7441DB3A82800242954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1FE7541DB3A82800242954 /* LaunchScreen.storyboard in Resources */,
+				AD1FE7511DB3A82800242954 /* Assets.xcassets in Resources */,
+				AD1FE74F1DB3A82800242954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1FE7581DB3A82800242954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1FE7631DB3A82800242954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1FE7421DB3A82800242954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1FE74C1DB3A82800242954 /* ViewController.swift in Sources */,
+				AD1FE74A1DB3A82800242954 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1FE7561DB3A82800242954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1FE75F1DB3A82800242954 /* hagikazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1FE7611DB3A82800242954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1FE76A1DB3A82800242954 /* hagikazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1FE75C1DB3A82800242954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1FE7451DB3A82800242954 /* hagikaze */;
+			targetProxy = AD1FE75B1DB3A82800242954 /* PBXContainerItemProxy */;
+		};
+		AD1FE7671DB3A82800242954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1FE7451DB3A82800242954 /* hagikaze */;
+			targetProxy = AD1FE7661DB3A82800242954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1FE74D1DB3A82800242954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1FE74E1DB3A82800242954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1FE7531DB3A82800242954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD1FE76C1DB3A82800242954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1FE76D1DB3A82800242954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1FE76F1DB3A82800242954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD1FE7701DB3A82800242954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AD1FE7721DB3A82800242954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hagikaze.app/hagikaze";
+			};
+			name = Debug;
+		};
+		AD1FE7731DB3A82800242954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hagikaze.app/hagikaze";
+			};
+			name = Release;
+		};
+		AD1FE7751DB3A82800242954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hagikaze;
+			};
+			name = Debug;
+		};
+		AD1FE7761DB3A82800242954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hagikaze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1FE7411DB3A82800242954 /* Build configuration list for PBXProject "hagikaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1FE76C1DB3A82800242954 /* Debug */,
+				AD1FE76D1DB3A82800242954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1FE76E1DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1FE76F1DB3A82800242954 /* Debug */,
+				AD1FE7701DB3A82800242954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD1FE7711DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1FE7721DB3A82800242954 /* Debug */,
+				AD1FE7731DB3A82800242954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD1FE7741DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1FE7751DB3A82800242954 /* Debug */,
+				AD1FE7761DB3A82800242954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1FE73E1DB3A82800242954 /* Project object */;
+}
