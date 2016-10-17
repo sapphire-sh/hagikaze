@@ -14,6 +14,12 @@
 		AD1FE7541DB3A82800242954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */; };
 		AD1FE75F1DB3A82800242954 /* hagikazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE75E1DB3A82800242954 /* hagikazeTests.swift */; };
 		AD1FE76A1DB3A82800242954 /* hagikazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */; };
+		AD60C2FF1DB4C34B0064C446 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C2FE1DB4C34B0064C446 /* TimelineViewController.swift */; };
+		ADBAED6C1DB3F0AB00BC4643 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED681DB3F0AB00BC4643 /* Fabric.framework */; };
+		ADBAED6D1DB3F0AB00BC4643 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED691DB3F0AB00BC4643 /* TwitterKit.framework */; };
+		ADBAED6E1DB3F0AB00BC4643 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADBAED6A1DB3F0AB00BC4643 /* TwitterKitResources.bundle */; };
+		ADBAED6F1DB3F0AB00BC4643 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED6B1DB3F0AB00BC4643 /* TwitterCore.framework */; };
+		ADBAED711DB4875600BC4643 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED701DB4875600BC4643 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		AD1FE7651DB3A82800242954 /* hagikazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hagikazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hagikazeUITests.swift; sourceTree = "<group>"; };
 		AD1FE76B1DB3A82800242954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD60C2FE1DB4C34B0064C446 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		ADBAED681DB3F0AB00BC4643 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		ADBAED691DB3F0AB00BC4643 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		ADBAED6A1DB3F0AB00BC4643 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		ADBAED6B1DB3F0AB00BC4643 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		ADBAED701DB4875600BC4643 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBAED6C1DB3F0AB00BC4643 /* Fabric.framework in Frameworks */,
+				ADBAED6F1DB3F0AB00BC4643 /* TwitterCore.framework in Frameworks */,
+				ADBAED711DB4875600BC4643 /* Crashlytics.framework in Frameworks */,
+				ADBAED6D1DB3F0AB00BC4643 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +93,15 @@
 		AD1FE73D1DB3A82800242954 = {
 			isa = PBXGroup;
 			children = (
+				ADBAED681DB3F0AB00BC4643 /* Fabric.framework */,
+				ADBAED691DB3F0AB00BC4643 /* TwitterKit.framework */,
+				ADBAED6A1DB3F0AB00BC4643 /* TwitterKitResources.bundle */,
+				ADBAED6B1DB3F0AB00BC4643 /* TwitterCore.framework */,
 				AD1FE7481DB3A82800242954 /* hagikaze */,
 				AD1FE75D1DB3A82800242954 /* hagikazeTests */,
 				AD1FE7681DB3A82800242954 /* hagikazeUITests */,
 				AD1FE7471DB3A82800242954 /* Products */,
+				ADBAED701DB4875600BC4643 /* Crashlytics.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,7 @@
 				AD1FE7501DB3A82800242954 /* Assets.xcassets */,
 				AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */,
 				AD1FE7551DB3A82800242954 /* Info.plist */,
+				AD60C2FE1DB4C34B0064C446 /* TimelineViewController.swift */,
 			);
 			path = hagikaze;
 			sourceTree = "<group>";
@@ -135,6 +157,7 @@
 				AD1FE7421DB3A82800242954 /* Sources */,
 				AD1FE7431DB3A82800242954 /* Frameworks */,
 				AD1FE7441DB3A82800242954 /* Resources */,
+				ADBAED671DB3F09800BC4643 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -235,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBAED6E1DB3F0AB00BC4643 /* TwitterKitResources.bundle in Resources */,
 				AD1FE7541DB3A82800242954 /* LaunchScreen.storyboard in Resources */,
 				AD1FE7511DB3A82800242954 /* Assets.xcassets in Resources */,
 				AD1FE74F1DB3A82800242954 /* Main.storyboard in Resources */,
@@ -257,12 +281,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADBAED671DB3F09800BC4643 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ae1f1b8437540ad1d0dba58e2f2e1e179cb97b50 7367dc501f91ac9ad2e3353d25dee6126f1f8342ffa4b92c8713b6face392e5f";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD1FE7421DB3A82800242954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD1FE74C1DB3A82800242954 /* ViewController.swift in Sources */,
+				AD60C2FF1DB4C34B0064C446 /* TimelineViewController.swift in Sources */,
 				AD1FE74A1DB3A82800242954 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,11 +457,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = hagikaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -429,11 +476,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = hagikaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -514,6 +567,7 @@
 				AD1FE7701DB3A82800242954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1FE7711DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +576,7 @@
 				AD1FE7731DB3A82800242954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1FE7741DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +585,7 @@
 				AD1FE7761DB3A82800242954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
