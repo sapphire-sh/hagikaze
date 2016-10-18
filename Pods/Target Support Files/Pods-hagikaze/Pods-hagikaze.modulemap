@@ -1,0 +1,6 @@
+framework module Pods_hagikaze {
+  umbrella header "Pods-hagikaze-umbrella.h"
+
+  export *
+  module * { export * }
+}

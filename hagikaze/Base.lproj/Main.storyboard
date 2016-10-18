@@ -56,13 +56,40 @@
                                     <outlet property="delegate" destination="hzw-Oo-lrU" id="4Gg-Aq-jVc"/>
                                 </connections>
                             </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GoJ-zf-qCp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ahy-eJ-AUv"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Timeline" id="3TG-xY-bKh">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="yHu-pX-3jr"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="cB6-Tu-qZZ"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbS-iI-cJO">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="rno-9y-pqZ"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="8uM-7G-OsW"/>
+                                    <tabBarItem systemItem="more" id="bwv-bV-66J"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="DCS-TC-efR" firstAttribute="top" secondItem="HXr-KF-BTQ" secondAttribute="bottom" id="QUE-6O-WRO"/>
+                            <constraint firstItem="GoJ-zf-qCp" firstAttribute="leading" secondItem="cXX-Fe-98g" secondAttribute="leading" id="FjP-yd-Mar"/>
+                            <constraint firstAttribute="trailing" secondItem="jbS-iI-cJO" secondAttribute="trailing" id="KK1-tw-kKo"/>
+                            <constraint firstItem="jbS-iI-cJO" firstAttribute="top" secondItem="DCS-TC-efR" secondAttribute="bottom" id="Tk2-VC-Dwm"/>
+                            <constraint firstItem="GoJ-zf-qCp" firstAttribute="top" secondItem="HXr-KF-BTQ" secondAttribute="bottom" id="b5H-fe-Us5"/>
+                            <constraint firstAttribute="trailing" secondItem="GoJ-zf-qCp" secondAttribute="trailing" id="d4o-3P-FOj"/>
                             <constraint firstAttribute="trailing" secondItem="DCS-TC-efR" secondAttribute="trailing" id="gsN-If-ujK"/>
+                            <constraint firstItem="jbS-iI-cJO" firstAttribute="leading" secondItem="cXX-Fe-98g" secondAttribute="leading" id="kgk-uj-DMJ"/>
+                            <constraint firstItem="DCS-TC-efR" firstAttribute="top" secondItem="GoJ-zf-qCp" secondAttribute="bottom" id="nkV-Z5-PRe"/>
+                            <constraint firstAttribute="bottom" secondItem="jbS-iI-cJO" secondAttribute="bottom" id="sqx-cB-ci3"/>
                             <constraint firstItem="DCS-TC-efR" firstAttribute="leading" secondItem="cXX-Fe-98g" secondAttribute="leading" id="wlg-ye-TmU"/>
-                            <constraint firstItem="9U6-2c-JTw" firstAttribute="top" secondItem="DCS-TC-efR" secondAttribute="bottom" id="xA8-HC-fhk"/>
                         </constraints>
                     </view>
                     <connections>
@@ -71,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gSM-vC-HFT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="-727"/>
+            <point key="canvasLocation" x="896.79999999999995" y="-727.28635682158927"/>
         </scene>
     </scenes>
 </document>

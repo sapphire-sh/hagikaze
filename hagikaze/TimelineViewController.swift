@@ -8,6 +8,7 @@
 
 import UIKit
 import TwitterKit
+import Kingfisher
 
 class TimelineViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 	@IBOutlet weak var tableView: UITableView!
@@ -61,13 +62,13 @@ class TimelineViewController: UIViewController, UITableViewDataSource, UITableVi
 		
 		let tweet = tweets[indexPath.row]
 		
-		do {
-			let data = try Data(contentsOf: URL(string: tweet.author.profileImageURL)!)
-			cell.imageView?.image = UIImage(data: data)
-		}
-		catch let err as NSError {
-			print(err.localizedDescription)
-		}
+		let url = URL(string: tweet.author.profileImageURL)
+		cell.imageView?.kf.setImage(with: url, placeholder: nil, options: nil, progressBlock: nil, completionHandler: { (image, error, cacheType, imageUrl) in
+			let cell = tableView.cellForRow(at: indexPath)
+			if cell != nil {
+				tableView.reloadRows(at: [indexPath], with: .automatic)
+			}
+		})
 		
 		cell.textLabel?.text = tweet.text
 		cell.textLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
