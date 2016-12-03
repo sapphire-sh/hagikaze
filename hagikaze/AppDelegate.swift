@@ -2,24 +2,19 @@
 //  AppDelegate.swift
 //  hagikaze
 //
-//  Created by sapphire on 10/16/16.
+//  Created by sapphire on 12/3/16.
 //  Copyright © 2016 sapphire. All rights reserved.
 //
 
 import UIKit
-import Fabric
-import TwitterKit
-import Crashlytics
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
 	var window: UIWindow?
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		Fabric.with([Twitter.self, Crashlytics.self])
-
 		return true
 	}
 
@@ -45,6 +40,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
 
+	// MARK: - Split view
+
+	func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController:UIViewController, onto primaryViewController:UIViewController) -> Bool {
+	    guard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
+	    guard let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController else { return false }
+	    if topAsDetailController.detailItem == nil {
+	        // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
+	        return true
+	    }
+	    return false
+	}
 
 }
 

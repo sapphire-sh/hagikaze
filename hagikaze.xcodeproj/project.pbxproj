@@ -7,260 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		292A8E82A91505B7DA5ED459 /* Pods_hagikaze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777A74B8AD7427AA5BD2341E /* Pods_hagikaze.framework */; };
-		AD1FE74A1DB3A82800242954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE7491DB3A82800242954 /* AppDelegate.swift */; };
-		AD1FE74C1DB3A82800242954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE74B1DB3A82800242954 /* ViewController.swift */; };
-		AD1FE74F1DB3A82800242954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FE74D1DB3A82800242954 /* Main.storyboard */; };
-		AD1FE7511DB3A82800242954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1FE7501DB3A82800242954 /* Assets.xcassets */; };
-		AD1FE7541DB3A82800242954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */; };
-		AD1FE75F1DB3A82800242954 /* hagikazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE75E1DB3A82800242954 /* hagikazeTests.swift */; };
-		AD1FE76A1DB3A82800242954 /* hagikazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */; };
-		AD60C2FF1DB4C34B0064C446 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C2FE1DB4C34B0064C446 /* TimelineViewController.swift */; };
-		ADBAED6C1DB3F0AB00BC4643 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED681DB3F0AB00BC4643 /* Fabric.framework */; };
-		ADBAED6D1DB3F0AB00BC4643 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED691DB3F0AB00BC4643 /* TwitterKit.framework */; };
-		ADBAED6E1DB3F0AB00BC4643 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADBAED6A1DB3F0AB00BC4643 /* TwitterKitResources.bundle */; };
-		ADBAED6F1DB3F0AB00BC4643 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED6B1DB3F0AB00BC4643 /* TwitterCore.framework */; };
-		ADBAED711DB4875600BC4643 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAED701DB4875600BC4643 /* Crashlytics.framework */; };
+		AD238AB71DF30159008EF91D /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */; };
+		AD238AB81DF30159008EF91D /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD238ABD1DF3048F008EF91D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD238ABC1DF3048F008EF91D /* MainViewController.swift */; };
+		ADDA06441DF2FEA100ACFCB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */; };
+		ADDA06461DF2FEA100ACFCB3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA06451DF2FEA100ACFCB3 /* MasterViewController.swift */; };
+		ADDA06481DF2FEA100ACFCB3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA06471DF2FEA100ACFCB3 /* DetailViewController.swift */; };
+		ADDA064B1DF2FEA100ACFCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */; };
+		ADDA064D1DF2FEA100ACFCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */; };
+		ADDA06501DF2FEA100ACFCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AD1FE75B1DB3A82800242954 /* PBXContainerItemProxy */ = {
+		AD238AA01DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AD1FE73E1DB3A82800242954 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD1FE7451DB3A82800242954;
-			remoteInfo = hagikaze;
+			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
 		};
-		AD1FE7661DB3A82800242954 /* PBXContainerItemProxy */ = {
+		AD238AA21DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AD1FE73E1DB3A82800242954 /* Project object */;
+			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		AD238AA41DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		AD238AA61DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		AD238AA81DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+		AD238AB91DF30159008EF91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = AD1FE7451DB3A82800242954;
-			remoteInfo = hagikaze;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AD238ABB1DF30159008EF91D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD238AB81DF30159008EF91D /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1973F258933605A907003E99 /* Pods-hagikaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hagikaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze.release.xcconfig"; sourceTree = "<group>"; };
-		6DFEED616C498C318D6963A6 /* Pods-hagikaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hagikaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze.debug.xcconfig"; sourceTree = "<group>"; };
-		777A74B8AD7427AA5BD2341E /* Pods_hagikaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hagikaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD1FE7461DB3A82800242954 /* hagikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hagikaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD1FE7491DB3A82800242954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD1FE74B1DB3A82800242954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD1FE74E1DB3A82800242954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD1FE7501DB3A82800242954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD1FE7531DB3A82800242954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AD1FE7551DB3A82800242954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD1FE75A1DB3A82800242954 /* hagikazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hagikazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD1FE75E1DB3A82800242954 /* hagikazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hagikazeTests.swift; sourceTree = "<group>"; };
-		AD1FE7601DB3A82800242954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD1FE7651DB3A82800242954 /* hagikazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hagikazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hagikazeUITests.swift; sourceTree = "<group>"; };
-		AD1FE76B1DB3A82800242954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD60C2FE1DB4C34B0064C446 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
-		ADBAED681DB3F0AB00BC4643 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		ADBAED691DB3F0AB00BC4643 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
-		ADBAED6A1DB3F0AB00BC4643 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
-		ADBAED6B1DB3F0AB00BC4643 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
-		ADBAED701DB4875600BC4643 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		AD238ABC1DF3048F008EF91D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ADDA06401DF2FEA100ACFCB3 /* hagikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hagikaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADDA06451DF2FEA100ACFCB3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		ADDA06471DF2FEA100ACFCB3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ADDA064A1DF2FEA100ACFCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADDA064F1DF2FEA100ACFCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADDA06511DF2FEA100ACFCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD1FE7431DB3A82800242954 /* Frameworks */ = {
+		ADDA063D1DF2FEA100ACFCB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBAED6C1DB3F0AB00BC4643 /* Fabric.framework in Frameworks */,
-				ADBAED6F1DB3F0AB00BC4643 /* TwitterCore.framework in Frameworks */,
-				ADBAED711DB4875600BC4643 /* Crashlytics.framework in Frameworks */,
-				ADBAED6D1DB3F0AB00BC4643 /* TwitterKit.framework in Frameworks */,
-				292A8E82A91505B7DA5ED459 /* Pods_hagikaze.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD1FE7571DB3A82800242954 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD1FE7621DB3A82800242954 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AD238AB71DF30159008EF91D /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4697655E9AE289B2BFAFFE66 /* Pods */ = {
+		AD238A991DF2FEE7008EF91D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DFEED616C498C318D6963A6 /* Pods-hagikaze.debug.xcconfig */,
-				1973F258933605A907003E99 /* Pods-hagikaze.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AD1FE73D1DB3A82800242954 = {
-			isa = PBXGroup;
-			children = (
-				ADBAED681DB3F0AB00BC4643 /* Fabric.framework */,
-				ADBAED691DB3F0AB00BC4643 /* TwitterKit.framework */,
-				ADBAED6A1DB3F0AB00BC4643 /* TwitterKitResources.bundle */,
-				ADBAED6B1DB3F0AB00BC4643 /* TwitterCore.framework */,
-				AD1FE7481DB3A82800242954 /* hagikaze */,
-				AD1FE75D1DB3A82800242954 /* hagikazeTests */,
-				AD1FE7681DB3A82800242954 /* hagikazeUITests */,
-				AD1FE7471DB3A82800242954 /* Products */,
-				ADBAED701DB4875600BC4643 /* Crashlytics.framework */,
-				4697655E9AE289B2BFAFFE66 /* Pods */,
-				C19BBCE75CE5F638C4C30FC2 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		AD1FE7471DB3A82800242954 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AD1FE7461DB3A82800242954 /* hagikaze.app */,
-				AD1FE75A1DB3A82800242954 /* hagikazeTests.xctest */,
-				AD1FE7651DB3A82800242954 /* hagikazeUITests.xctest */,
+				AD238AA11DF2FEE7008EF91D /* SwifterDemoiOS.app */,
+				AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */,
+				AD238AA51DF2FEE7008EF91D /* SwifterMac.framework */,
+				AD238AA71DF2FEE7008EF91D /* SwifterDemoMac.app */,
+				AD238AA91DF2FEE7008EF91D /* SwifterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD1FE7481DB3A82800242954 /* hagikaze */ = {
+		ADDA06371DF2FEA100ACFCB3 = {
 			isa = PBXGroup;
 			children = (
-				AD1FE7491DB3A82800242954 /* AppDelegate.swift */,
-				AD1FE74B1DB3A82800242954 /* ViewController.swift */,
-				AD1FE74D1DB3A82800242954 /* Main.storyboard */,
-				AD1FE7501DB3A82800242954 /* Assets.xcassets */,
-				AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */,
-				AD1FE7551DB3A82800242954 /* Info.plist */,
-				AD60C2FE1DB4C34B0064C446 /* TimelineViewController.swift */,
+				AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */,
+				ADDA06421DF2FEA100ACFCB3 /* hagikaze */,
+				ADDA06411DF2FEA100ACFCB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDA06411DF2FEA100ACFCB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA06401DF2FEA100ACFCB3 /* hagikaze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADDA06421DF2FEA100ACFCB3 /* hagikaze */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */,
+				ADDA06451DF2FEA100ACFCB3 /* MasterViewController.swift */,
+				ADDA06471DF2FEA100ACFCB3 /* DetailViewController.swift */,
+				ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */,
+				ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */,
+				ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */,
+				ADDA06511DF2FEA100ACFCB3 /* Info.plist */,
+				AD238ABC1DF3048F008EF91D /* MainViewController.swift */,
 			);
 			path = hagikaze;
-			sourceTree = "<group>";
-		};
-		AD1FE75D1DB3A82800242954 /* hagikazeTests */ = {
-			isa = PBXGroup;
-			children = (
-				AD1FE75E1DB3A82800242954 /* hagikazeTests.swift */,
-				AD1FE7601DB3A82800242954 /* Info.plist */,
-			);
-			path = hagikazeTests;
-			sourceTree = "<group>";
-		};
-		AD1FE7681DB3A82800242954 /* hagikazeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AD1FE7691DB3A82800242954 /* hagikazeUITests.swift */,
-				AD1FE76B1DB3A82800242954 /* Info.plist */,
-			);
-			path = hagikazeUITests;
-			sourceTree = "<group>";
-		};
-		C19BBCE75CE5F638C4C30FC2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				777A74B8AD7427AA5BD2341E /* Pods_hagikaze.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD1FE7451DB3A82800242954 /* hagikaze */ = {
+		ADDA063F1DF2FEA100ACFCB3 /* hagikaze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD1FE76E1DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikaze" */;
+			buildConfigurationList = ADDA06541DF2FEA100ACFCB3 /* Build configuration list for PBXNativeTarget "hagikaze" */;
 			buildPhases = (
-				ACCFF7EC1008F45E1593C582 /* [CP] Check Pods Manifest.lock */,
-				AD1FE7421DB3A82800242954 /* Sources */,
-				AD1FE7431DB3A82800242954 /* Frameworks */,
-				AD1FE7441DB3A82800242954 /* Resources */,
-				ADBAED671DB3F09800BC4643 /* ShellScript */,
-				E5B9B22F252821B19F4ECFCE /* [CP] Embed Pods Frameworks */,
-				2D41C6E455013231FB39BA68 /* [CP] Copy Pods Resources */,
+				ADDA063C1DF2FEA100ACFCB3 /* Sources */,
+				ADDA063D1DF2FEA100ACFCB3 /* Frameworks */,
+				ADDA063E1DF2FEA100ACFCB3 /* Resources */,
+				AD238ABB1DF30159008EF91D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AD238ABA1DF30159008EF91D /* PBXTargetDependency */,
 			);
 			name = hagikaze;
 			productName = hagikaze;
-			productReference = AD1FE7461DB3A82800242954 /* hagikaze.app */;
+			productReference = ADDA06401DF2FEA100ACFCB3 /* hagikaze.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AD1FE7591DB3A82800242954 /* hagikazeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD1FE7711DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeTests" */;
-			buildPhases = (
-				AD1FE7561DB3A82800242954 /* Sources */,
-				AD1FE7571DB3A82800242954 /* Frameworks */,
-				AD1FE7581DB3A82800242954 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD1FE75C1DB3A82800242954 /* PBXTargetDependency */,
-			);
-			name = hagikazeTests;
-			productName = hagikazeTests;
-			productReference = AD1FE75A1DB3A82800242954 /* hagikazeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AD1FE7641DB3A82800242954 /* hagikazeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD1FE7741DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeUITests" */;
-			buildPhases = (
-				AD1FE7611DB3A82800242954 /* Sources */,
-				AD1FE7621DB3A82800242954 /* Frameworks */,
-				AD1FE7631DB3A82800242954 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD1FE7671DB3A82800242954 /* PBXTargetDependency */,
-			);
-			name = hagikazeUITests;
-			productName = hagikazeUITests;
-			productReference = AD1FE7651DB3A82800242954 /* hagikazeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AD1FE73E1DB3A82800242954 /* Project object */ = {
+		ADDA06381DF2FEA100ACFCB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = sapphire;
 				TargetAttributes = {
-					AD1FE7451DB3A82800242954 = {
-						CreatedOnToolsVersion = 8.0;
+					ADDA063F1DF2FEA100ACFCB3 = {
+						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 3SAKQQACR7;
 						ProvisioningStyle = Automatic;
-					};
-					AD1FE7591DB3A82800242954 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 3SAKQQACR7;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AD1FE7451DB3A82800242954;
-					};
-					AD1FE7641DB3A82800242954 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 3SAKQQACR7;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AD1FE7451DB3A82800242954;
 					};
 				};
 			};
-			buildConfigurationList = AD1FE7411DB3A82800242954 /* Build configuration list for PBXProject "hagikaze" */;
+			buildConfigurationList = ADDA063B1DF2FEA100ACFCB3 /* Build configuration list for PBXProject "hagikaze" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -268,162 +193,108 @@
 				en,
 				Base,
 			);
-			mainGroup = AD1FE73D1DB3A82800242954;
-			productRefGroup = AD1FE7471DB3A82800242954 /* Products */;
+			mainGroup = ADDA06371DF2FEA100ACFCB3;
+			productRefGroup = ADDA06411DF2FEA100ACFCB3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AD238A991DF2FEE7008EF91D /* Products */;
+					ProjectRef = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				AD1FE7451DB3A82800242954 /* hagikaze */,
-				AD1FE7591DB3A82800242954 /* hagikazeTests */,
-				AD1FE7641DB3A82800242954 /* hagikazeUITests */,
+				ADDA063F1DF2FEA100ACFCB3 /* hagikaze */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		AD238AA11DF2FEE7008EF91D /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = AD238AA01DF2FEE7008EF91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = AD238AA21DF2FEE7008EF91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AD238AA51DF2FEE7008EF91D /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = AD238AA41DF2FEE7008EF91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AD238AA71DF2FEE7008EF91D /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = AD238AA61DF2FEE7008EF91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AD238AA91DF2FEE7008EF91D /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = AD238AA81DF2FEE7008EF91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		AD1FE7441DB3A82800242954 /* Resources */ = {
+		ADDA063E1DF2FEA100ACFCB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBAED6E1DB3F0AB00BC4643 /* TwitterKitResources.bundle in Resources */,
-				AD1FE7541DB3A82800242954 /* LaunchScreen.storyboard in Resources */,
-				AD1FE7511DB3A82800242954 /* Assets.xcassets in Resources */,
-				AD1FE74F1DB3A82800242954 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD1FE7581DB3A82800242954 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD1FE7631DB3A82800242954 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				ADDA06501DF2FEA100ACFCB3 /* LaunchScreen.storyboard in Resources */,
+				ADDA064D1DF2FEA100ACFCB3 /* Assets.xcassets in Resources */,
+				ADDA064B1DF2FEA100ACFCB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2D41C6E455013231FB39BA68 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ACCFF7EC1008F45E1593C582 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		ADBAED671DB3F09800BC4643 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run ae1f1b8437540ad1d0dba58e2f2e1e179cb97b50 7367dc501f91ac9ad2e3353d25dee6126f1f8342ffa4b92c8713b6face392e5f";
-		};
-		E5B9B22F252821B19F4ECFCE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		AD1FE7421DB3A82800242954 /* Sources */ = {
+		ADDA063C1DF2FEA100ACFCB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1FE74C1DB3A82800242954 /* ViewController.swift in Sources */,
-				AD60C2FF1DB4C34B0064C446 /* TimelineViewController.swift in Sources */,
-				AD1FE74A1DB3A82800242954 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD1FE7561DB3A82800242954 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD1FE75F1DB3A82800242954 /* hagikazeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD1FE7611DB3A82800242954 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD1FE76A1DB3A82800242954 /* hagikazeUITests.swift in Sources */,
+				ADDA06481DF2FEA100ACFCB3 /* DetailViewController.swift in Sources */,
+				ADDA06461DF2FEA100ACFCB3 /* MasterViewController.swift in Sources */,
+				ADDA06441DF2FEA100ACFCB3 /* AppDelegate.swift in Sources */,
+				AD238ABD1DF3048F008EF91D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AD1FE75C1DB3A82800242954 /* PBXTargetDependency */ = {
+		AD238ABA1DF30159008EF91D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AD1FE7451DB3A82800242954 /* hagikaze */;
-			targetProxy = AD1FE75B1DB3A82800242954 /* PBXContainerItemProxy */;
-		};
-		AD1FE7671DB3A82800242954 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AD1FE7451DB3A82800242954 /* hagikaze */;
-			targetProxy = AD1FE7661DB3A82800242954 /* PBXContainerItemProxy */;
+			name = SwifteriOS;
+			targetProxy = AD238AB91DF30159008EF91D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD1FE74D1DB3A82800242954 /* Main.storyboard */ = {
+		ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD1FE74E1DB3A82800242954 /* Base */,
+				ADDA064A1DF2FEA100ACFCB3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AD1FE7521DB3A82800242954 /* LaunchScreen.storyboard */ = {
+		ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD1FE7531DB3A82800242954 /* Base */,
+				ADDA064F1DF2FEA100ACFCB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -431,7 +302,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AD1FE76C1DB3A82800242954 /* Debug */ = {
+		ADDA06521DF2FEA100ACFCB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -471,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -481,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		AD1FE76D1DB3A82800242954 /* Release */ = {
+		ADDA06531DF2FEA100ACFCB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -515,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -524,144 +395,56 @@
 			};
 			name = Release;
 		};
-		AD1FE76F1DB3A82800242954 /* Debug */ = {
+		ADDA06551DF2FEA100ACFCB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DFEED616C498C318D6963A6 /* Pods-hagikaze.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3SAKQQACR7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = hagikaze/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AD1FE7701DB3A82800242954 /* Release */ = {
+		ADDA06561DF2FEA100ACFCB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1973F258933605A907003E99 /* Pods-hagikaze.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3SAKQQACR7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = hagikaze/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AD1FE7721DB3A82800242954 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3SAKQQACR7;
-				INFOPLIST_FILE = hagikazeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hagikaze.app/hagikaze";
-			};
-			name = Debug;
-		};
-		AD1FE7731DB3A82800242954 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3SAKQQACR7;
-				INFOPLIST_FILE = hagikazeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hagikaze.app/hagikaze";
-			};
-			name = Release;
-		};
-		AD1FE7751DB3A82800242954 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3SAKQQACR7;
-				INFOPLIST_FILE = hagikazeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = hagikaze;
-			};
-			name = Debug;
-		};
-		AD1FE7761DB3A82800242954 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3SAKQQACR7;
-				INFOPLIST_FILE = hagikazeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = hagikaze;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD1FE7411DB3A82800242954 /* Build configuration list for PBXProject "hagikaze" */ = {
+		ADDA063B1DF2FEA100ACFCB3 /* Build configuration list for PBXProject "hagikaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD1FE76C1DB3A82800242954 /* Debug */,
-				AD1FE76D1DB3A82800242954 /* Release */,
+				ADDA06521DF2FEA100ACFCB3 /* Debug */,
+				ADDA06531DF2FEA100ACFCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD1FE76E1DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikaze" */ = {
+		ADDA06541DF2FEA100ACFCB3 /* Build configuration list for PBXNativeTarget "hagikaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD1FE76F1DB3A82800242954 /* Debug */,
-				AD1FE7701DB3A82800242954 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD1FE7711DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD1FE7721DB3A82800242954 /* Debug */,
-				AD1FE7731DB3A82800242954 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD1FE7741DB3A82800242954 /* Build configuration list for PBXNativeTarget "hagikazeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD1FE7751DB3A82800242954 /* Debug */,
-				AD1FE7761DB3A82800242954 /* Release */,
+				ADDA06551DF2FEA100ACFCB3 /* Debug */,
+				ADDA06561DF2FEA100ACFCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AD1FE73E1DB3A82800242954 /* Project object */;
+	rootObject = ADDA06381DF2FEA100ACFCB3 /* Project object */;
 }
