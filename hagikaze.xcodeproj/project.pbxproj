@@ -7,61 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD238AB71DF30159008EF91D /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */; };
-		AD238AB81DF30159008EF91D /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AD238ABD1DF3048F008EF91D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD238ABC1DF3048F008EF91D /* MainViewController.swift */; };
+		AD0C50461E12BFA6007B4312 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C50451E12BFA6007B4312 /* AccountManager.swift */; };
+		AD0C50481E12C4D8007B4312 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C50471E12C4D8007B4312 /* AccountViewController.swift */; };
+		AD0C504C1E12D09E007B4312 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C504B1E12D09E007B4312 /* TimelineTableViewController.swift */; };
+		AD0C50501E12E0D8007B4312 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C504F1E12E0D8007B4312 /* Tweet.swift */; };
+		AD1F7C7E1E12B717009ACB03 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1F7C7D1E12B717009ACB03 /* MainViewController.swift */; };
 		ADDA06441DF2FEA100ACFCB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */; };
-		ADDA06461DF2FEA100ACFCB3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA06451DF2FEA100ACFCB3 /* MasterViewController.swift */; };
-		ADDA06481DF2FEA100ACFCB3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA06471DF2FEA100ACFCB3 /* DetailViewController.swift */; };
 		ADDA064B1DF2FEA100ACFCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */; };
 		ADDA064D1DF2FEA100ACFCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */; };
 		ADDA06501DF2FEA100ACFCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AD238AA01DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
-			remoteInfo = SwifterDemoiOS;
-		};
-		AD238AA21DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
-			remoteInfo = SwifteriOS;
-		};
-		AD238AA41DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B9F51131944A61D00894629;
-			remoteInfo = SwifterMac;
-		};
-		AD238AA61DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B300C471944AECB00993175;
-			remoteInfo = SwifterDemoMac;
-		};
-		AD238AA81DF2FEE7008EF91D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
-			remoteInfo = SwifterTests;
-		};
-		AD238AB91DF30159008EF91D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
-			remoteInfo = SwifteriOS;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AD238ABB1DF30159008EF91D /* Embed Frameworks */ = {
@@ -70,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AD238AB81DF30159008EF91D /* SwifteriOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,12 +32,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
-		AD238ABC1DF3048F008EF91D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AD0C50451E12BFA6007B4312 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		AD0C50471E12C4D8007B4312 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		AD0C504B1E12D09E007B4312 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		AD0C504F1E12E0D8007B4312 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		AD1F7C7D1E12B717009ACB03 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ADDA06401DF2FEA100ACFCB3 /* hagikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hagikaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADDA06451DF2FEA100ACFCB3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		ADDA06471DF2FEA100ACFCB3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ADDA064A1DF2FEA100ACFCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADDA064F1DF2FEA100ACFCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,29 +50,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD238AB71DF30159008EF91D /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD238A991DF2FEE7008EF91D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AD238AA11DF2FEE7008EF91D /* SwifterDemoiOS.app */,
-				AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */,
-				AD238AA51DF2FEE7008EF91D /* SwifterMac.framework */,
-				AD238AA71DF2FEE7008EF91D /* SwifterDemoMac.app */,
-				AD238AA91DF2FEE7008EF91D /* SwifterTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		ADDA06371DF2FEA100ACFCB3 = {
 			isa = PBXGroup;
 			children = (
-				AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */,
 				ADDA06421DF2FEA100ACFCB3 /* hagikaze */,
 				ADDA06411DF2FEA100ACFCB3 /* Products */,
 			);
@@ -135,13 +76,15 @@
 			isa = PBXGroup;
 			children = (
 				ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */,
-				ADDA06451DF2FEA100ACFCB3 /* MasterViewController.swift */,
-				ADDA06471DF2FEA100ACFCB3 /* DetailViewController.swift */,
 				ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */,
 				ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */,
 				ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */,
 				ADDA06511DF2FEA100ACFCB3 /* Info.plist */,
-				AD238ABC1DF3048F008EF91D /* MainViewController.swift */,
+				AD1F7C7D1E12B717009ACB03 /* MainViewController.swift */,
+				AD0C50451E12BFA6007B4312 /* AccountManager.swift */,
+				AD0C50471E12C4D8007B4312 /* AccountViewController.swift */,
+				AD0C504B1E12D09E007B4312 /* TimelineTableViewController.swift */,
+				AD0C504F1E12E0D8007B4312 /* Tweet.swift */,
 			);
 			path = hagikaze;
 			sourceTree = "<group>";
@@ -161,7 +104,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				AD238ABA1DF30159008EF91D /* PBXTargetDependency */,
 			);
 			name = hagikaze;
 			productName = hagikaze;
@@ -196,56 +138,12 @@
 			mainGroup = ADDA06371DF2FEA100ACFCB3;
 			productRefGroup = ADDA06411DF2FEA100ACFCB3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = AD238A991DF2FEE7008EF91D /* Products */;
-					ProjectRef = AD238A981DF2FEE7008EF91D /* Swifter.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				ADDA063F1DF2FEA100ACFCB3 /* hagikaze */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		AD238AA11DF2FEE7008EF91D /* SwifterDemoiOS.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwifterDemoiOS.app;
-			remoteRef = AD238AA01DF2FEE7008EF91D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AD238AA31DF2FEE7008EF91D /* SwifteriOS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwifteriOS.framework;
-			remoteRef = AD238AA21DF2FEE7008EF91D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AD238AA51DF2FEE7008EF91D /* SwifterMac.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwifterMac.framework;
-			remoteRef = AD238AA41DF2FEE7008EF91D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AD238AA71DF2FEE7008EF91D /* SwifterDemoMac.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwifterDemoMac.app;
-			remoteRef = AD238AA61DF2FEE7008EF91D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AD238AA91DF2FEE7008EF91D /* SwifterTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwifterTests.xctest;
-			remoteRef = AD238AA81DF2FEE7008EF91D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ADDA063E1DF2FEA100ACFCB3 /* Resources */ = {
@@ -265,22 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADDA06481DF2FEA100ACFCB3 /* DetailViewController.swift in Sources */,
-				ADDA06461DF2FEA100ACFCB3 /* MasterViewController.swift in Sources */,
 				ADDA06441DF2FEA100ACFCB3 /* AppDelegate.swift in Sources */,
-				AD238ABD1DF3048F008EF91D /* MainViewController.swift in Sources */,
+				AD1F7C7E1E12B717009ACB03 /* MainViewController.swift in Sources */,
+				AD0C504C1E12D09E007B4312 /* TimelineTableViewController.swift in Sources */,
+				AD0C50501E12E0D8007B4312 /* Tweet.swift in Sources */,
+				AD0C50481E12C4D8007B4312 /* AccountViewController.swift in Sources */,
+				AD0C50461E12BFA6007B4312 /* AccountManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AD238ABA1DF30159008EF91D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwifteriOS;
-			targetProxy = AD238AB91DF30159008EF91D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */ = {
