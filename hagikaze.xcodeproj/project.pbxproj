@@ -3,29 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD0C50461E12BFA6007B4312 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C50451E12BFA6007B4312 /* AccountManager.swift */; };
-		AD0C50481E12C4D8007B4312 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C50471E12C4D8007B4312 /* AccountViewController.swift */; };
-		AD0C504C1E12D09E007B4312 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C504B1E12D09E007B4312 /* TimelineTableViewController.swift */; };
-		AD0C50501E12E0D8007B4312 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C504F1E12E0D8007B4312 /* Tweet.swift */; };
-		AD1F7C7E1E12B717009ACB03 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1F7C7D1E12B717009ACB03 /* MainViewController.swift */; };
-		ADDA06441DF2FEA100ACFCB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */; };
-		ADDA064B1DF2FEA100ACFCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */; };
-		ADDA064D1DF2FEA100ACFCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */; };
-		ADDA06501DF2FEA100ACFCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */; };
-		F8E7BE289B8F82E01653DACA /* Pods_hagikaze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69634616F299D86761DB2A97 /* Pods_hagikaze.framework */; };
+		AD5C7D9821C10B04005036D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C7D9721C10B04005036D2 /* AppDelegate.swift */; };
+		AD5C7D9A21C10B04005036D2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5C7D9921C10B04005036D2 /* art.scnassets */; };
+		AD5C7D9C21C10B04005036D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C7D9B21C10B04005036D2 /* ViewController.swift */; };
+		AD5C7D9F21C10B04005036D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5C7D9D21C10B04005036D2 /* Main.storyboard */; };
+		AD5C7DA121C10B06005036D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5C7DA021C10B06005036D2 /* Assets.xcassets */; };
+		AD5C7DA421C10B06005036D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5C7DA221C10B06005036D2 /* LaunchScreen.storyboard */; };
+		AD5C7DAF21C10B06005036D2 /* hagikazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C7DAE21C10B06005036D2 /* hagikazeTests.swift */; };
+		AD5C7DBA21C10B06005036D2 /* hagikazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C7DB921C10B06005036D2 /* hagikazeUITests.swift */; };
+		AD5C7DC821C10FD6005036D2 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C7DC721C10FD6005036D2 /* OAuthSwift.framework */; };
+		AD5C7DC921C10FD6005036D2 /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C7DC721C10FD6005036D2 /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD5C7DCC21C110CC005036D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C7DCB21C110CC005036D2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AD5C7DAB21C10B06005036D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5C7D8C21C10B04005036D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5C7D9321C10B04005036D2;
+			remoteInfo = hagikaze;
+		};
+		AD5C7DB621C10B06005036D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5C7D8C21C10B04005036D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5C7D9321C10B04005036D2;
+			remoteInfo = hagikaze;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		AD238ABB1DF30159008EF91D /* Embed Frameworks */ = {
+		AD5C7DCA21C10FD6005036D2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AD5C7DC921C10FD6005036D2 /* OAuthSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,100 +52,115 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		12D2D82CCDB70715A3D48385 /* Pods-hagikaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hagikaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze.release.xcconfig"; sourceTree = "<group>"; };
-		69634616F299D86761DB2A97 /* Pods_hagikaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hagikaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A68F36C4E6BCCBA82C502E3A /* Pods-hagikaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hagikaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze.debug.xcconfig"; sourceTree = "<group>"; };
-		AD0C50451E12BFA6007B4312 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
-		AD0C50471E12C4D8007B4312 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
-		AD0C504B1E12D09E007B4312 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
-		AD0C504F1E12E0D8007B4312 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
-		AD1F7C7D1E12B717009ACB03 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		ADDA06401DF2FEA100ACFCB3 /* hagikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hagikaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADDA064A1DF2FEA100ACFCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ADDA064F1DF2FEA100ACFCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ADDA06511DF2FEA100ACFCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5C7D9421C10B04005036D2 /* hagikaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hagikaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5C7D9721C10B04005036D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD5C7D9921C10B04005036D2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AD5C7D9B21C10B04005036D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD5C7D9E21C10B04005036D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD5C7DA021C10B06005036D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5C7DA321C10B06005036D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD5C7DA521C10B06005036D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5C7DAA21C10B06005036D2 /* hagikazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hagikazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5C7DAE21C10B06005036D2 /* hagikazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hagikazeTests.swift; sourceTree = "<group>"; };
+		AD5C7DB021C10B06005036D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5C7DB521C10B06005036D2 /* hagikazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hagikazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5C7DB921C10B06005036D2 /* hagikazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hagikazeUITests.swift; sourceTree = "<group>"; };
+		AD5C7DBB21C10B06005036D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5C7DC721C10FD6005036D2 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
+		AD5C7DCB21C110CC005036D2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ADDA063D1DF2FEA100ACFCB3 /* Frameworks */ = {
+		AD5C7D9121C10B04005036D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E7BE289B8F82E01653DACA /* Pods_hagikaze.framework in Frameworks */,
+				AD5C7DC821C10FD6005036D2 /* OAuthSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5C7DA721C10B06005036D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5C7DB221C10B06005036D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3EF2180A0D9FAEE33F6C1379 /* Pods */ = {
+		AD5C7D8B21C10B04005036D2 = {
 			isa = PBXGroup;
 			children = (
-				A68F36C4E6BCCBA82C502E3A /* Pods-hagikaze.debug.xcconfig */,
-				12D2D82CCDB70715A3D48385 /* Pods-hagikaze.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		ADDA06371DF2FEA100ACFCB3 = {
-			isa = PBXGroup;
-			children = (
-				ADDA06421DF2FEA100ACFCB3 /* hagikaze */,
-				ADDA06411DF2FEA100ACFCB3 /* Products */,
-				3EF2180A0D9FAEE33F6C1379 /* Pods */,
-				E8BDC1965141C7E9C52451BD /* Frameworks */,
+				AD5C7DC721C10FD6005036D2 /* OAuthSwift.framework */,
+				AD5C7D9621C10B04005036D2 /* hagikaze */,
+				AD5C7DAD21C10B06005036D2 /* hagikazeTests */,
+				AD5C7DB821C10B06005036D2 /* hagikazeUITests */,
+				AD5C7D9521C10B04005036D2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ADDA06411DF2FEA100ACFCB3 /* Products */ = {
+		AD5C7D9521C10B04005036D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADDA06401DF2FEA100ACFCB3 /* hagikaze.app */,
+				AD5C7D9421C10B04005036D2 /* hagikaze.app */,
+				AD5C7DAA21C10B06005036D2 /* hagikazeTests.xctest */,
+				AD5C7DB521C10B06005036D2 /* hagikazeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADDA06421DF2FEA100ACFCB3 /* hagikaze */ = {
+		AD5C7D9621C10B04005036D2 /* hagikaze */ = {
 			isa = PBXGroup;
 			children = (
-				ADDA06431DF2FEA100ACFCB3 /* AppDelegate.swift */,
-				ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */,
-				ADDA064C1DF2FEA100ACFCB3 /* Assets.xcassets */,
-				ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */,
-				ADDA06511DF2FEA100ACFCB3 /* Info.plist */,
-				AD1F7C7D1E12B717009ACB03 /* MainViewController.swift */,
-				AD0C50451E12BFA6007B4312 /* AccountManager.swift */,
-				AD0C50471E12C4D8007B4312 /* AccountViewController.swift */,
-				AD0C504B1E12D09E007B4312 /* TimelineTableViewController.swift */,
-				AD0C504F1E12E0D8007B4312 /* Tweet.swift */,
+				AD5C7D9721C10B04005036D2 /* AppDelegate.swift */,
+				AD5C7D9921C10B04005036D2 /* art.scnassets */,
+				AD5C7D9B21C10B04005036D2 /* ViewController.swift */,
+				AD5C7D9D21C10B04005036D2 /* Main.storyboard */,
+				AD5C7DA021C10B06005036D2 /* Assets.xcassets */,
+				AD5C7DA221C10B06005036D2 /* LaunchScreen.storyboard */,
+				AD5C7DA521C10B06005036D2 /* Info.plist */,
+				AD5C7DCB21C110CC005036D2 /* MainViewController.swift */,
 			);
 			path = hagikaze;
 			sourceTree = "<group>";
 		};
-		E8BDC1965141C7E9C52451BD /* Frameworks */ = {
+		AD5C7DAD21C10B06005036D2 /* hagikazeTests */ = {
 			isa = PBXGroup;
 			children = (
-				69634616F299D86761DB2A97 /* Pods_hagikaze.framework */,
+				AD5C7DAE21C10B06005036D2 /* hagikazeTests.swift */,
+				AD5C7DB021C10B06005036D2 /* Info.plist */,
 			);
-			name = Frameworks;
+			path = hagikazeTests;
+			sourceTree = "<group>";
+		};
+		AD5C7DB821C10B06005036D2 /* hagikazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C7DB921C10B06005036D2 /* hagikazeUITests.swift */,
+				AD5C7DBB21C10B06005036D2 /* Info.plist */,
+			);
+			path = hagikazeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADDA063F1DF2FEA100ACFCB3 /* hagikaze */ = {
+		AD5C7D9321C10B04005036D2 /* hagikaze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADDA06541DF2FEA100ACFCB3 /* Build configuration list for PBXNativeTarget "hagikaze" */;
+			buildConfigurationList = AD5C7DBE21C10B06005036D2 /* Build configuration list for PBXNativeTarget "hagikaze" */;
 			buildPhases = (
-				1055CE3867645B6916870FDD /* [CP] Check Pods Manifest.lock */,
-				ADDA063C1DF2FEA100ACFCB3 /* Sources */,
-				ADDA063D1DF2FEA100ACFCB3 /* Frameworks */,
-				ADDA063E1DF2FEA100ACFCB3 /* Resources */,
-				AD238ABB1DF30159008EF91D /* Embed Frameworks */,
-				0B4022C6EC81A05F41D95E1F /* [CP] Embed Pods Frameworks */,
-				9F594A812FA9F4EC98D61982 /* [CP] Copy Pods Resources */,
+				AD5C7D9021C10B04005036D2 /* Sources */,
+				AD5C7D9121C10B04005036D2 /* Frameworks */,
+				AD5C7D9221C10B04005036D2 /* Resources */,
+				AD5C7DCA21C10FD6005036D2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,134 +168,171 @@
 			);
 			name = hagikaze;
 			productName = hagikaze;
-			productReference = ADDA06401DF2FEA100ACFCB3 /* hagikaze.app */;
+			productReference = AD5C7D9421C10B04005036D2 /* hagikaze.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AD5C7DA921C10B06005036D2 /* hagikazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5C7DC121C10B06005036D2 /* Build configuration list for PBXNativeTarget "hagikazeTests" */;
+			buildPhases = (
+				AD5C7DA621C10B06005036D2 /* Sources */,
+				AD5C7DA721C10B06005036D2 /* Frameworks */,
+				AD5C7DA821C10B06005036D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5C7DAC21C10B06005036D2 /* PBXTargetDependency */,
+			);
+			name = hagikazeTests;
+			productName = hagikazeTests;
+			productReference = AD5C7DAA21C10B06005036D2 /* hagikazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD5C7DB421C10B06005036D2 /* hagikazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5C7DC421C10B06005036D2 /* Build configuration list for PBXNativeTarget "hagikazeUITests" */;
+			buildPhases = (
+				AD5C7DB121C10B06005036D2 /* Sources */,
+				AD5C7DB221C10B06005036D2 /* Frameworks */,
+				AD5C7DB321C10B06005036D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5C7DB721C10B06005036D2 /* PBXTargetDependency */,
+			);
+			name = hagikazeUITests;
+			productName = hagikazeUITests;
+			productReference = AD5C7DB521C10B06005036D2 /* hagikazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ADDA06381DF2FEA100ACFCB3 /* Project object */ = {
+		AD5C7D8C21C10B04005036D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = sapphire;
 				TargetAttributes = {
-					ADDA063F1DF2FEA100ACFCB3 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 3SAKQQACR7;
-						ProvisioningStyle = Automatic;
+					AD5C7D9321C10B04005036D2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AD5C7DA921C10B06005036D2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AD5C7D9321C10B04005036D2;
+					};
+					AD5C7DB421C10B06005036D2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AD5C7D9321C10B04005036D2;
 					};
 				};
 			};
-			buildConfigurationList = ADDA063B1DF2FEA100ACFCB3 /* Build configuration list for PBXProject "hagikaze" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = AD5C7D8F21C10B04005036D2 /* Build configuration list for PBXProject "hagikaze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = ADDA06371DF2FEA100ACFCB3;
-			productRefGroup = ADDA06411DF2FEA100ACFCB3 /* Products */;
+			mainGroup = AD5C7D8B21C10B04005036D2;
+			productRefGroup = AD5C7D9521C10B04005036D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADDA063F1DF2FEA100ACFCB3 /* hagikaze */,
+				AD5C7D9321C10B04005036D2 /* hagikaze */,
+				AD5C7DA921C10B06005036D2 /* hagikazeTests */,
+				AD5C7DB421C10B06005036D2 /* hagikazeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ADDA063E1DF2FEA100ACFCB3 /* Resources */ = {
+		AD5C7D9221C10B04005036D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADDA06501DF2FEA100ACFCB3 /* LaunchScreen.storyboard in Resources */,
-				ADDA064D1DF2FEA100ACFCB3 /* Assets.xcassets in Resources */,
-				ADDA064B1DF2FEA100ACFCB3 /* Main.storyboard in Resources */,
+				AD5C7D9A21C10B04005036D2 /* art.scnassets in Resources */,
+				AD5C7DA421C10B06005036D2 /* LaunchScreen.storyboard in Resources */,
+				AD5C7DA121C10B06005036D2 /* Assets.xcassets in Resources */,
+				AD5C7D9F21C10B04005036D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5C7DA821C10B06005036D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5C7DB321C10B06005036D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0B4022C6EC81A05F41D95E1F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1055CE3867645B6916870FDD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9F594A812FA9F4EC98D61982 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hagikaze/Pods-hagikaze-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		ADDA063C1DF2FEA100ACFCB3 /* Sources */ = {
+		AD5C7D9021C10B04005036D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADDA06441DF2FEA100ACFCB3 /* AppDelegate.swift in Sources */,
-				AD1F7C7E1E12B717009ACB03 /* MainViewController.swift in Sources */,
-				AD0C504C1E12D09E007B4312 /* TimelineTableViewController.swift in Sources */,
-				AD0C50501E12E0D8007B4312 /* Tweet.swift in Sources */,
-				AD0C50481E12C4D8007B4312 /* AccountViewController.swift in Sources */,
-				AD0C50461E12BFA6007B4312 /* AccountManager.swift in Sources */,
+				AD5C7DCC21C110CC005036D2 /* MainViewController.swift in Sources */,
+				AD5C7D9C21C10B04005036D2 /* ViewController.swift in Sources */,
+				AD5C7D9821C10B04005036D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5C7DA621C10B06005036D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5C7DAF21C10B06005036D2 /* hagikazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5C7DB121C10B06005036D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5C7DBA21C10B06005036D2 /* hagikazeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AD5C7DAC21C10B06005036D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5C7D9321C10B04005036D2 /* hagikaze */;
+			targetProxy = AD5C7DAB21C10B06005036D2 /* PBXContainerItemProxy */;
+		};
+		AD5C7DB721C10B06005036D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5C7D9321C10B04005036D2 /* hagikaze */;
+			targetProxy = AD5C7DB621C10B06005036D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		ADDA06491DF2FEA100ACFCB3 /* Main.storyboard */ = {
+		AD5C7D9D21C10B04005036D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ADDA064A1DF2FEA100ACFCB3 /* Base */,
+				AD5C7D9E21C10B04005036D2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ADDA064E1DF2FEA100ACFCB3 /* LaunchScreen.storyboard */ = {
+		AD5C7DA221C10B06005036D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ADDA064F1DF2FEA100ACFCB3 /* Base */,
+				AD5C7DA321C10B06005036D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -269,33 +340,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ADDA06521DF2FEA100ACFCB3 /* Debug */ = {
+		AD5C7DBC21C10B06005036D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -309,43 +391,54 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ADDA06531DF2FEA100ACFCB3 /* Release */ = {
+		AD5C7DBD21C10B06005036D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -353,67 +446,182 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		ADDA06551DF2FEA100ACFCB3 /* Debug */ = {
+		AD5C7DBF21C10B06005036D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A68F36C4E6BCCBA82C502E3A /* Pods-hagikaze.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = hagikaze/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ADDA06561DF2FEA100ACFCB3 /* Release */ = {
+		AD5C7DC021C10B06005036D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12D2D82CCDB70715A3D48385 /* Pods-hagikaze.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = hagikaze/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD5C7DC221C10B06005036D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hagikaze.app/hagikaze";
+			};
+			name = Debug;
+		};
+		AD5C7DC321C10B06005036D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hagikaze.app/hagikaze";
+			};
+			name = Release;
+		};
+		AD5C7DC521C10B06005036D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hagikaze;
+			};
+			name = Debug;
+		};
+		AD5C7DC621C10B06005036D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SAKQQACR7;
+				INFOPLIST_FILE = hagikazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.sapphire.hagikazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hagikaze;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADDA063B1DF2FEA100ACFCB3 /* Build configuration list for PBXProject "hagikaze" */ = {
+		AD5C7D8F21C10B04005036D2 /* Build configuration list for PBXProject "hagikaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADDA06521DF2FEA100ACFCB3 /* Debug */,
-				ADDA06531DF2FEA100ACFCB3 /* Release */,
+				AD5C7DBC21C10B06005036D2 /* Debug */,
+				AD5C7DBD21C10B06005036D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADDA06541DF2FEA100ACFCB3 /* Build configuration list for PBXNativeTarget "hagikaze" */ = {
+		AD5C7DBE21C10B06005036D2 /* Build configuration list for PBXNativeTarget "hagikaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADDA06551DF2FEA100ACFCB3 /* Debug */,
-				ADDA06561DF2FEA100ACFCB3 /* Release */,
+				AD5C7DBF21C10B06005036D2 /* Debug */,
+				AD5C7DC021C10B06005036D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5C7DC121C10B06005036D2 /* Build configuration list for PBXNativeTarget "hagikazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5C7DC221C10B06005036D2 /* Debug */,
+				AD5C7DC321C10B06005036D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5C7DC421C10B06005036D2 /* Build configuration list for PBXNativeTarget "hagikazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5C7DC521C10B06005036D2 /* Debug */,
+				AD5C7DC621C10B06005036D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ADDA06381DF2FEA100ACFCB3 /* Project object */;
+	rootObject = AD5C7D8C21C10B04005036D2 /* Project object */;
 }
